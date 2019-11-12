@@ -22,9 +22,9 @@ public class LoginPageSteps {
 	@When("User enters username and password")
 	public void user_enters_username_and_password() {
 		WebElement user = driver.findElement(By.id("username"));
-		user.sendKeys("Swetha");
+		user.sendKeys("Tom");
 		WebElement pass = driver.findElement(By.id("password"));
-	   pass.sendKeys("Hello");
+	   pass.sendKeys("Hai");
 	    }
 
 	@Then("User click the login button")
